@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Space+Mono:ital@1&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    
+    background: rgba(0, 0, 0, 0.7) url('https://wallpapercave.com/wp/VCf1lhA.jpg');
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.app {
+    width: 90vw;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    opacity: .8;
+    line-height: 1.9;
+    font-size: 1.25rem;
+}
+
+.button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .9;
+    transition: .2s ease-in-out;
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white
+}
+
+@media (min-width: 600px) {
+
+    .app {
+        width: 65vw;
+    }
+
+    .header {
+        font-size: 1.75rem;
+    }
+
+    .button {
+        top: 65%;
+    }
+}
