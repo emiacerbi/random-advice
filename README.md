@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I made this app to practice with React. The app uses fetch to call data from an API called Advice Slip JSON. You can find the link to the documentation right here: [Link](https://api.adviceslip.com/).
 
+## Screenshot
+
+![](screenshot.png)
+
 ## Application
 
 - Live Site URL: [Link](https://emiacerbi.github.io/random-advice/)
